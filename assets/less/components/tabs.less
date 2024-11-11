@@ -1,0 +1,155 @@
+// LESS Variables
+@background-color: #efefef;
+@border-color: #f0f0f0;
+@text-color: #ccc;
+
+
+
+.transition(@props) {
+  transition: @props;
+}
+
+// Imports
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+// Base Styles
+
+
+// Container Styles
+.wkhw_tabs-container {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin-top: 60px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  position: relative;
+
+  .wkhw_tabs {
+    padding: 10px 20px 15px 20px;
+  }
+}
+
+// Tab Links
+.wkhw_tab-links {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid @border-color;
+}
+
+.wkhw_tab-link {
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 30px;
+  color: @text-color;
+  cursor: pointer;
+  position: relative;
+  .transition(color 0.3s ease);
+
+  i {
+    margin-right: 10px;
+  }
+
+  &.wkhw_active,
+  &:hover {
+    color: #007aff;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -1px;
+    left: 50%;
+    // .gradient(@primary-gradient-start, @primary-gradient-end);
+    background-color: #007aff;
+    .transition(all 0.4s ease);
+  }
+
+  &.wkhw_active::after {
+    width: 100%;
+    left: 0;
+  }
+}
+
+// Tab Content
+.wkhw_tab-content {
+  display: none;
+  animation: fadeInUp 0.5s ease;
+  padding: 5px 10px 15px 10px;
+
+  &.wkhw_active {
+    display: block;
+  }
+}
+
+// Form Styles
+.wkhw_contact-form {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+
+  input,
+  textarea {
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    .transition(border 0.3s ease);
+
+    &:focus {
+      border-color: #007aff;
+      outline: none;
+    }
+  }
+}
+
+// FAQ List Styles
+.wkhw_faq-list {
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin-bottom: 10px;
+
+    strong {
+      font-weight: 600;
+    }
+  }
+}
+
+// Animations
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Responsive Styles
+@media screen and (max-width: 600px) {
+  .wkhw_tab-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wkhw_tab-link {
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+  }
+}

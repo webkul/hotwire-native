@@ -1,0 +1,459 @@
+/** Css for plugin support*/
+/* iOS Native Form Styles */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+#wkhw-ios-native-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 34px 20px 20px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+#wkhw-ios-native-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333;
+}
+#wkhw-ios-native-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+#wkhw-ios-native-form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #007aff;
+  border: none;
+  border-radius: 5px;
+}
+#wkhw-form-response {
+  margin-top: 15px;
+  font-size: 16px;
+  text-align: center;
+}
+#wkhw-form-response.success {
+  color: #28a745;
+}
+#wkhw-form-response.error {
+  color: #dc3545;
+}
+/* Modal Frame Styles */
+.wkhw-modal-frame {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  /* Ensures the modal appears above other content */
+}
+.wkhw-modal-frame[hidden] {
+  display: none;
+}
+.wkhw-modal-frame form {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+.wkhw-modal-frame form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.wkhw-modal-frame form input[type="text"],
+.wkhw-modal-frame form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.wkhw-modal-frame form button {
+  background-color: #4DCCBD;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.wkhw-modal-frame form button:hover {
+  background-color: #3BB8A8;
+}
+.wkhw-modal-frame #wkhw-form-response {
+  margin-top: 10px;
+}
+/* Close Button Styling */
+#wkhw-ios-native-form button#wkhw-close-btn {
+  margin: 0;
+  width: max-content;
+  position: absolute;
+  padding: 0;
+  right: 25px;
+  top: 12px;
+  color: black;
+  background: transparent;
+}
+/* Second Screen Transition */
+#wkhw-second-screen {
+  transition: opacity 0.3s ease-in-out;
+}
+#wkhw-second-screen[hidden] {
+  display: none;
+}
+/* Mobile Responsive Styles */
+@media only screen and (max-width: 525px) {
+  #wkhw-ios-native-form {
+    width: 100%;
+    max-width: 100%;
+    box-shadow: unset;
+    background-color: #fff;
+  }
+  .wkhw-modal-frame {
+    background-color: white;
+  }
+}
+.wkhw-button {
+  display: inline-block;
+  background-color: #007AFF;
+  color: white;
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+.wkhw-button:hover {
+  background-color: #007AFF;
+  color: #fff;
+}
+.wkhw-button:active {
+  transform: scale(0.96);
+  background-color: #0056b3;
+  color: #fff;
+}
+.m40 {
+  margin-top: 40px;
+}
+button:active,
+input:active,
+button:focus,
+input:focus {
+  outline: unset !important;
+}
+.wkhw-popover-container {
+  position: relative;
+  width: max-content;
+}
+.wkhw-popover-container .wkhw-popover {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+  padding: 10px 0;
+  min-width: 200px;
+  transition: all 0.2s ease;
+  transform: scale(1) translateX(-50%);
+  z-index: 1000;
+}
+.wkhw-popover-container .wkhw-popover.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.95);
+}
+.wkhw-popover-container .wkhw-popover.hidden:hover {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1) translateX(-50%);
+}
+.wkhw-popover-container .wkhw-popover.wkhw-bottom {
+  top: calc(100%);
+  left: 100%;
+  transform: translateX(-50%) scale(0.95);
+}
+.wkhw-popover-container .wkhw-popover .wkhw-popover-header {
+  padding: 10px 16px;
+  font-weight: 600;
+  color: #1c1c1e;
+  border-bottom: 1px solid rgba(60, 60, 67, 0.1);
+}
+.wkhw-popover-container .wkhw-popover .wkhw-popover-item {
+  padding: 10px 16px;
+  color: #007AFF;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.wkhw-popover-container .wkhw-popover .wkhw-popover-separator {
+  height: 1px;
+  background-color: rgba(60, 60, 67, 0.1);
+  margin: 5px 0;
+}
+.wkhw-popover-container .wkhw-popover .wkhw-popover-item {
+  padding: 10px 16px;
+  color: #007AFF;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.wkhw-popover-container .wkhw-popover .wkhw-popover-item.wkhw-destructive {
+  color: #FF3B30;
+}
+/* iOS Alert */
+.wkhw-ios-notification {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 13px;
+  width: 270px;
+  opacity: 0;
+  transition: all 0.2s;
+  visibility: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.01);
+  z-index: 99999;
+  overflow: hidden;
+}
+body:has(.wkhw-ios-notification.wkhw-show) {
+  overflow: hidden;
+}
+.wkhw-ios-notification.show {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+.wkhw-ios-notification-header {
+  text-align: center;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 16px;
+}
+.wkhw-ios-notification-body {
+  padding: 0 1rem 1rem;
+  text-align: center;
+  font-size: 13px;
+}
+.wkhw-ios-notification-actions {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+.wkhw-ios-notification-actions .wkhw-ios-notification-button {
+  flex: 1;
+  padding: 0.8rem;
+  border: none;
+  background: none;
+  font-size: 17px;
+  color: #007AFF;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.wkhw-ios-notification-actions .wkhw-ios-notification-button:hover {
+  color: #007aff;
+  background-color: #fff;
+}
+.wkhw-ios-notification-actions .wkhw-ios-notification-button.wkhw-destructive {
+  color: #FF3B30;
+}
+.wkhw-ios-notification-actions .wkhw-ios-notification-button.wkhw-destructive:hover {
+  color: #FF3B30;
+}
+.wkhw-ios-notification-actions .wkhw-ios-notification-button:last-child {
+  border-right: none;
+}
+/** Css for plugin support*/
+.wkhw_accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  margin-top: 60px;
+}
+.wkhw_accordion__item {
+  border: 1px solid #e5f3fa;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.wkhw_accordion__header {
+  padding: 20px 25px;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+}
+.wkhw_accordion__header::after {
+  content: '';
+  background: url(https://www.svgrepo.com/show/357035/angle-down.svg) no-repeat center;
+  width: 20px;
+  height: 20px;
+  transition: .4s;
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 1;
+}
+.wkhw_accordion__header.active {
+  background: #e5f3fa;
+}
+.wkhw_accordion__header.active::after {
+  transform: rotateX(180deg);
+}
+.wkhw_accordion__content {
+  padding: 0 25px;
+  max-height: 0;
+  transition: .3s;
+  overflow: hidden;
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}
+.wkhw_tabs-container {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin-top: 60px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  position: relative;
+}
+.wkhw_tabs-container .wkhw_tabs {
+  padding: 10px 20px 15px 20px;
+}
+.wkhw_tab-links {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #f0f0f0;
+}
+.wkhw_tab-link {
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 30px;
+  color: #ccc;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+}
+.wkhw_tab-link i {
+  margin-right: 10px;
+}
+.wkhw_tab-link.wkhw_active,
+.wkhw_tab-link:hover {
+  color: #007aff;
+}
+.wkhw_tab-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: -1px;
+  left: 50%;
+  background-color: #007aff;
+  transition: all 0.4s ease;
+}
+.wkhw_tab-link.wkhw_active::after {
+  width: 100%;
+  left: 0;
+}
+.wkhw_tab-content {
+  display: none;
+  animation: fadeInUp 0.5s ease;
+  padding: 5px 10px 15px 10px;
+}
+.wkhw_tab-content.wkhw_active {
+  display: block;
+}
+.wkhw_contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.wkhw_contact-form label {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.wkhw_contact-form input,
+.wkhw_contact-form textarea {
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: border 0.3s ease;
+}
+.wkhw_contact-form input:focus,
+.wkhw_contact-form textarea:focus {
+  border-color: #007aff;
+  outline: none;
+}
+.wkhw_faq-list {
+  padding: 0;
+  list-style: none;
+}
+.wkhw_faq-list li {
+  margin-bottom: 10px;
+}
+.wkhw_faq-list li strong {
+  font-weight: 600;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media screen and (max-width: 600px) {
+  .wkhw_tab-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .wkhw_tab-link {
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+  }
+}

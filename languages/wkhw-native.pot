@@ -1,0 +1,326 @@
+# Copyright (C) 2024 Mobikul
+# This file is distributed under the license.txt included with plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotwire turbo native for WordPress 1.0.0\n"
+"Report-Msgid-Bugs-To: https://webkul.uvdesk.com/en/customer/create-ticket/\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-29T12:55:18+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"language-team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Domain: hotwire-native\n"
+
+#. Plugin Name of the plugin
+#: hotwire-native-for-wordpress.php
+msgid "Hotwire turbo native for WordPress"
+msgstr ""
+
+#. Description of the plugin
+#: hotwire-native-for-wordpress.php
+msgid "WordPress hotwire native for converting website to native app."
+msgstr ""
+
+#. Author of the plugin
+#: hotwire-native-for-wordpress.php
+#: templates/admin/class-wkhw-view-settings.php:116
+msgid "Mobikul"
+msgstr ""
+
+#: includes/admin/class-hotwire-native-admin-functions.php:38
+msgid "HotWire WP"
+msgstr ""
+
+#: includes/admin/class-hotwire-native-admin-functions.php:49
+#: includes/admin/class-hotwire-native-admin-functions.php:50
+msgid "Extensions"
+msgstr ""
+
+#: includes/admin/class-hotwire-native-admin-functions.php:57
+#: includes/admin/class-hotwire-native-admin-functions.php:58
+msgid "Support & Services"
+msgstr ""
+
+#: includes/admin/class-hotwire-native-admin-functions.php:159
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/class-hotwire-native-admin-functions.php:160
+msgid "ShortCode Views"
+msgstr ""
+
+#: includes/admin/class-hotwire-native-admin-functions.php:167
+msgid "Hotwire Native Settings"
+msgstr ""
+
+#: includes/admin/class-hotwire-native-admin-functions.php:229
+msgid "If you like <strong>Hotwire Native for WordPress</strong> from <strong><a href=\"https://webkul.com/\" target=\"_blank\" class=\"wc-rating-link\" data-rated=\"Thanks :)\">Webkul</a></strong> please leave us a <a href=\"#\" target=\"_blank\" class=\"wc-rating-link\" data-rated=\"Thanks :)\">★★★★★</a> rating. A huge thanks in advance!"
+msgstr ""
+
+#. translators: %s file path
+#: includes/autoload.php:56
+msgid "The file attempting to be loaded at %s does not exist."
+msgstr ""
+
+#: includes/front/class-hotwire-native-front-functions.php:190
+msgid "All fields are required"
+msgstr ""
+
+#: includes/front/class-hotwire-native-front-functions.php:194
+msgid "Invalid email address"
+msgstr ""
+
+#: includes/front/class-hotwire-native-front-functions.php:199
+msgid "New Form Submission"
+msgstr ""
+
+#: includes/front/class-hotwire-native-front-functions.php:204
+msgid "Message sent successfully!"
+msgstr ""
+
+#: includes/front/class-hotwire-native-front-functions.php:207
+msgid "Failed to send message"
+msgstr ""
+
+#: templates/admin/class-hotwire-native-settings.php:52
+msgid "Settings"
+msgstr ""
+
+#: templates/admin/class-hotwire-native-settings.php:62
+msgid "Hotwire For WordPress"
+msgstr ""
+
+#: templates/admin/class-hotwire-native-settings.php:67
+msgid "Enable"
+msgstr ""
+
+#: templates/admin/class-hotwire-native-settings.php:70
+msgid "Disable"
+msgstr ""
+
+#: templates/admin/class-wkhw-view-settings.php:52
+msgid "Form"
+msgstr ""
+
+#: templates/admin/class-wkhw-view-settings.php:56
+#: templates/front/class-wkhw-popover-settings.php:52
+msgid "Popover"
+msgstr ""
+
+#: templates/admin/class-wkhw-view-settings.php:60
+msgid "Notification"
+msgstr ""
+
+#: templates/admin/class-wkhw-view-settings.php:64
+msgid "Accordion"
+msgstr ""
+
+#: templates/admin/class-wkhw-view-settings.php:68
+msgid "Tab"
+msgstr ""
+
+#: templates/admin/class-wkhw-view-settings.php:86
+msgid "Directly use shortcodes inside your page/article:"
+msgstr ""
+
+#: templates/admin/class-wkhw-view-settings.php:90
+msgid "Copy Shortcode"
+msgstr ""
+
+#: templates/admin/class-wkhw-view-settings.php:94
+msgid "Short code copied!"
+msgstr ""
+
+#: templates/front/class-wkhw-accordion-settings.php:49
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit?"
+msgstr ""
+
+#: templates/front/class-wkhw-accordion-settings.php:53
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+msgstr ""
+
+#: templates/front/class-wkhw-accordion-settings.php:63
+msgid "But I must explain to you how all this mistaken idea?"
+msgstr ""
+
+#: templates/front/class-wkhw-accordion-settings.php:67
+msgid "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beata"
+msgstr ""
+
+#: templates/front/class-wkhw-accordion-settings.php:77
+msgid "At vero eos et accusamus et iusto odio?"
+msgstr ""
+
+#: templates/front/class-wkhw-accordion-settings.php:81
+msgid "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful"
+msgstr ""
+
+#: templates/front/class-wkhw-bottom-sheet-settings.php:44
+msgid "Open Bottom Sheet"
+msgstr ""
+
+#: templates/front/class-wkhw-bottom-sheet-settings.php:48
+msgid "Close"
+msgstr ""
+
+#: templates/front/class-wkhw-bottom-sheet-settings.php:49
+msgid "Options"
+msgstr ""
+
+#: templates/front/class-wkhw-bottom-sheet-settings.php:50
+msgid "Some content goes here..."
+msgstr ""
+
+#: templates/front/class-wkhw-forms-settings.php:43
+msgid "Start a project"
+msgstr ""
+
+#: templates/front/class-wkhw-forms-settings.php:53
+msgid "Name"
+msgstr ""
+
+#: templates/front/class-wkhw-forms-settings.php:55
+msgid "Email"
+msgstr ""
+
+#: templates/front/class-wkhw-forms-settings.php:57
+#: templates/front/class-wkhw-tab-settings.php:86
+msgid "Submit"
+msgstr ""
+
+#: templates/front/class-wkhw-notification-settings.php:44
+msgid "Show Alert"
+msgstr ""
+
+#: templates/front/class-wkhw-notification-settings.php:47
+#: templates/front/class-wkhw-notification-settings.php:53
+msgid "Sign Out"
+msgstr ""
+
+#: templates/front/class-wkhw-notification-settings.php:49
+msgid "Are you sure you want to sign out?"
+msgstr ""
+
+#: templates/front/class-wkhw-notification-settings.php:52
+msgid "Cancel"
+msgstr ""
+
+#: templates/front/class-wkhw-popover-settings.php:45
+msgid "Quick Actions"
+msgstr ""
+
+#: templates/front/class-wkhw-popover-settings.php:46
+msgid "Share"
+msgstr ""
+
+#: templates/front/class-wkhw-popover-settings.php:47
+msgid "Copy Link"
+msgstr ""
+
+#: templates/front/class-wkhw-popover-settings.php:49
+msgid "Delete"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:47
+#: templates/front/class-wkhw-tab-settings.php:60
+msgid "Overview"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:49
+#: templates/front/class-wkhw-tab-settings.php:66
+msgid "Details"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:52
+msgid "Contact"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:55
+msgid "FAQ"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:61
+msgid "Welcome to our modern tabbed interface! Enjoy smooth transitions, vibrant gradients, and responsive design."
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:62
+msgid "Learn More"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:68
+msgid "Responsive across all devices"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:69
+msgid "Smooth animations and transitions"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:70
+msgid "Modern, gradient-based design"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:71
+msgid "Clean, easy-to-read fonts"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:73
+msgid "Get Started"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:76
+msgid "Contact Us"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:78
+msgid "Name:"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:79
+msgid "Your Name"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:81
+msgid "Email:"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:82
+msgid "Your Email"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:84
+msgid "Message:"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:85
+msgid "Your Message"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:91
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:93
+#: templates/front/class-wkhw-tab-settings.php:95
+msgid "Q:"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:93
+msgid "What is this component for?"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:94
+#: templates/front/class-wkhw-tab-settings.php:96
+msgid "A:"
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:94
+msgid "It`s a modern, interactive tab interface for websites."
+msgstr ""
+
+#: templates/front/class-wkhw-tab-settings.php:96
+msgid "Yes! It`s built to work perfectly on any screen size."
+msgstr ""
