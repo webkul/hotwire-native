@@ -19,20 +19,35 @@ Hotwire Native for WordPress brings a native app feel to your WordPress site, le
 
 Let's check out all features of Hotwire Native for WordPress.
 
-- **Convert WordPress to Native** - Hotwire offers a compelling alternative that bridges the gap between web and native experiences. it transformed most of the pages to feel like native screens on both iOS and Android apps..
+- Quick setup in few clicks
+- This provides reusable native components like tabs, forms, and others
+- You can use the shortcodes of components to access and include the native components anywhere you like.
+
+This plugin offers a compelling alternative that bridges the gap between web and native experiences. it transformed most of the pages to feel like native screens on both iOS and Android apps.
+
+= Check Our Apps =
+Mobikul Hotwire ([Android App](https://play.google.com/store/apps/details?id=com.mobikul.hotwire))
+Mobikul Hotwire ([iOS App](https://apps.apple.com/vc/app/mobikul-hotwire-app/id6737973797))
+
+= Guide to Set Up Hotwire Demo App =
+
+- Install the Hotwire plugin on your WordPress site from the WordPress Plugin Directory or upload the provided plugin file.
+- Activate the plugin in your WordPress dashboard.
+- Download the Hotwire Demo App that was provided to you ([Demo APK](https://miad.mobikul.com/share?id=1734670852))
+- The demo will only work if the Hotwire plugin is installed and active on your site.
+- Open the app and enter your live site url on app intput field ( Works with HTTPS only ).
 
 = Connect with us =
 
-- Check out [Our Website](https://webkul.com/)
-- Join our [Facebook Group](https://www.facebook.com/webkul/)
-- Visit our [Instagram Page](https://www.instagram.com/lifeatwebkul/)
-- Follow us on [X(formerly Twitter)](https://x.com/webkul/)
-- Learn more on our [YouTube Chanel](https://www.youtube.com/webkul)
-- Follow us on [LinkedIn](https://in.linkedin.com/company/webkul)
+- Check out [Our Website](https://mobikul.com/)
+- Visit our [Facebook Page](https://facebook.com/mobikul)
+- Visit our [Instagram Page](https://www.instagram.com/mobikul)
+- Follow us on [X(formerly Twitter)](https://twitter.com/intent/follow?screen_name=mobikul)
+- Learn more on our [YouTube Channel](https://www.youtube.com/c/MobikulAppBuilder)
 
 = Privacy notices =
 
-* Hotwire Native ([Hotwire](https://www.hotwire.com/en/content/privacy-policy))
+* ([Mobikul Privacy Policy](https://mobikul.com/privacy-policy/))
 
 Hotwire Native is a web-first framework for building native mobile apps.
 
@@ -40,15 +55,15 @@ Hotwire Native provides an answer to all of these drawbacks with its web-first a
 
 For showing extensions and the support and services menu we are using our Webkul Services. So, confirming the privacy policies is recommended.
 
-* Extensions ([Webkul Policy](https://webkul.com/privacy-policy/))
-
-with this plugin you can easily access the Hotwire functionalities for WordPress.
+This plugin provides seamless integration of Hotwire Native functionalities for WordPress.
 
  = Developer Resources =
 
-Hotwire Native for WordPress is open-source software and is made to be extended. developers can find sources at our public ([github repository](https://github.com/webkul/hotwire-native-for-wordpress)) here.
+Hotwire Native for WordPress is open-source software and is made to be extended. Developers can find sources at our public ([github repository](https://github.com/webkul/hotwire-native)) here.
 
 We used ([Hotwire JS ](https://unpkg.com/browse/@hotwired/turbo@8.0.12/dist/)) to create and support the Stimulus controllers and views."
+
+If you require further assistance or more information, please reach out to us at support@webkul.com or raise a ticket at ([webkul.uvdesk.com](https://webkul.uvdesk.com/en/customer/create-ticket/))
 
 == Installation ==
 
@@ -79,14 +94,13 @@ Ans: Hotwire Native can be integrated with your existing WooCommerce setup witho
 **Are there any performance considerations when using Hotwire Native with WordPress and WooCommerce?**
 Ans: While Hotwire Native offers significant performance improvements, it's essential to consider the overall performance of your WordPress and WooCommerce setup. Proper server configuration, efficient database management, and optimized image sizes are crucial to ensure that the integration doesn't impact the website's overall speed and responsiveness. Regular performance monitoring and optimization practices are recommended.
 
-For any Query please generate a ticket at https://webkul.com/ticket/
 
 == Screenshots ==
 
 1. **Hotwire Turbo Forms:** - An example of a form component integrated with Hotwire Turbo, showcasing its dynamic behavior.
 2. **Native Notifications:** - Demonstrating the implementation of native notifications within the WordPress ecosystem.
-3. **Tab Navigation with Hotwire:** - A screenshot of tabbed navigation, enhanced with Hotwire for a seamless user experience.
-4. **Interactive Popovers:** - How popovers are implemented, providing additional information or actions on hover.
+3. **Interactive Popovers:** - How popovers are implemented, providing additional information or actions on hover.for a seamless user experience.
+4. **Tab Navigation with Hotwire:** - A screenshot of tabbed navigation, enhanced with Hotwire
 5. **Enabling Hotwire:** - An option for activate Hotwire Turbo into WordPress.
 
 == Changelog ==
